@@ -1,5 +1,11 @@
-## Framework Setup
-NOTE: Assumes you are on a Mac which comes with Ruby. And chrome browser is already installed.
+# Framework Setup
+
+## Running tests inside a Docker container 
+
+
+## Installing and running tests on local chrome
+Steps for installing on your local computer and running tests on your locally installed chrome browser. 
+NOTE: Assumes you are on a Mac with Ruby installed. And chrome browser is already installed.
 
 ### Dependences
 1. create a Gemfile via `bundle init`
@@ -43,6 +49,7 @@ end
 [Ref](https://github.com/teamcapybara/capybara#configuring-and-adding-drivers)
 
 ### Install Chromedriver
+NOTE: chromedriver can also be installed via the `webdrivers` ruby gem
 1. install chromedriver via:
 
 # For Mac 
